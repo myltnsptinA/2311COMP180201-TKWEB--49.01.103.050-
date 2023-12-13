@@ -3,7 +3,7 @@
     text-align: center;
     color:#222; font-size:30px; font-weight:400;
     text-transform: uppercase;
-    word-spacing: 1px; letter-spacing:2px; color:#c50000;
+    word-spacing: 1px; letter-spacing:2px; color:#003147;
   }
   .cf-title-06 h3 span {
     line-height:2em; padding-bottom:15px;
@@ -11,7 +11,7 @@
     font-size:.7em;
     font-weight: normal;
     font-style: italic; font-family: "Playfair Display","Bookman",serif;
-    color:#f64545; letter-spacing:-0.005em; word-spacing:1px;
+    color: #001347; letter-spacing:-0.005em; word-spacing:1px;
     letter-spacing:none;
   }
   .cf-title-06 h3:after, 
@@ -37,23 +37,23 @@
       width: auto;
       margin: 0px auto;
       min-height: 600px;
-      background-color: #c6e2ff;
+      background-color: #fff;
   }
   #right{
-      background-color: rgb(156, 227, 251);
+      background-color: #fff;
       min-height: 400px;
       width: 200px;
       float: right;
   }
   header {
-      background-color: rgb(92, 197, 245);
-      height: 150px;
+      background-color: lightblue;
+      height: 100px;
       position: relative;
   }
   nav {
       height: 60px;
-      background-color: #000;
-      color: #fff;
+      background-color: #003147;
+      color: #003147;
   }
   ul li {
       display: inline-block;/* tu troi*/
@@ -66,20 +66,20 @@
   li:hover {
       text-decoration: underline;
       background-color: #9cb7fc ;
-      color: #f00;
+      color: lightblue;
       border-radius: 9px;
   }
   #content{
-      background-color: #c6e2ff;
+      background-color: #fff;
       min-height: 400px;
       width: 790px;
       float: left;
       padding: 5px;
   }
   footer {
-      background-color: #00f;
-      color: #fff;
-      height: 30px;
+      background-color: #003147;
+      color: lightblue;
+      height: 40px;
       text-align: center;
       clear: both;
       margin: 5px 0px 0px 0px;
