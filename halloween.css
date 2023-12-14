@@ -69,7 +69,7 @@ nav .navbar-brand:hover {
 
 header {
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(./img/hero-img.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://i.pinimg.com/originals/e9/56/45/e9564503bcca0738735deacab8beb923.jpg);
     background-size: cover;
     background-position: bottom;
 }
