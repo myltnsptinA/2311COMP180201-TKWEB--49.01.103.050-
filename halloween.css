@@ -224,7 +224,7 @@ header #countdown {
         top: 8%;
     }
 
-    .img-ghost,
+    .img-cat,
     .img-ghost2 {
         width: 20%;
         top: 80%;
@@ -238,4 +238,13 @@ header #countdown {
     .second-title {
         font-size: 2.5rem;
     }
+}
+footer {
+    background-color: #DB6724;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    clear: both;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
