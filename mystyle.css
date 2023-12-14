@@ -1,3 +1,10 @@
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://i.pinimg.com/originals/4a/6d/59/4a6d59a24e9f463e48c618b166c19f6b.png);
+    background-size: cover;
+    background-position: bottom;
+}
 #shark{
     left:100px; top:400px;
     position: absolute;
@@ -15,5 +22,47 @@
     60% { left: 600px; top: 100px;}
     80% { left:500px; top: 200px;}
 100% {left:100px; top:400px;transition:scaleX(-1);}
+
+}
+#turlte{
+    left:50px; top:100px;
+    position: absolute;
+    animation-name: turlte;
+    animation-duration: 10s;
+    animation-timing-function: steps(5, 0);
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes turlte {
+    0% { left:100px; top:200px;}
+    10% {left:200px; top:100px;}
+    20% {left:300px; top:100px;}
+    30% {left:400px; top:100px}
+    40% {left:500px; top:200px;}
+    50% { left:600px; top:300px;}
+    60% { left:700px; top:300px;}
+    70% {left:800px; top:300px}
+    80% { left:900px; top:300px;}
+    90% {left:1000px; top:300px;}
+100% {left:300px; top:200px;transition:scaleX(-1);}
+
+}
+#diver2{
+    right :100px; top:400px;
+    position: absolute;
+    animation-name: diver2;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver2 {
+    0% {right:100px; top:400px;}
+    20% {right:300px; top:400px;}
+    40% {right:500px; top: 300px;}
+    50% { right: 600px; top: 50px;}
+    60% { right: 600px; top: 100px;}
+    80% { right:500px; top: 200px;}
+100% {right:100px; top:400px;transition:scaleX(-1);}
 
 }
